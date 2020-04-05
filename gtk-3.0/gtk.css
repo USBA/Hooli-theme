@@ -123,7 +123,7 @@ treeview.view rubberband,
 .content-view .rubberband,
 XfdesktopIconView.view .rubberband {
   border: 1px solid #00CD45;
-  background-color: rgba(123, 170, 247, 0.3);
+  background-color: rgba(0, 205, 69, 0.3);
 }
 
 flowbox flowboxchild {
@@ -590,8 +590,8 @@ button.flat:checked:disabled {
 
 /* Close button*/
 
-#MozillaGtkWidget.background headerbar button.close:hover, headerbar button.close:hover { 
-  background-color: #ff3b1c; 
+#MozillaGtkWidget.background headerbar button.close:hover, headerbar button.close:hover {
+  background-color: #ff3b1c;
 }
 
 
@@ -6029,6 +6029,7 @@ XfdesktopIconView.view {
 XfdesktopIconView.view:active {
   box-shadow: none;
   text-shadow: none;
+  background-color: rgba(0, 205, 69, 0.32);
 }
 
 XfdesktopIconView.view .rubberband {
